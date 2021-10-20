@@ -47,3 +47,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Custom gem 
 gem 'rename'
+
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+gem "rack-cors", :require => 'rack/cors'
+gem 'jwt'
